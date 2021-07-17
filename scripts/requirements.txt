@@ -1,0 +1,23 @@
+#For esp
+Install esp-idf
+https://docs.espressif.com/projects/esp-idf/en/latest/esp32/get-started/linux-setup.html
+
+#For Golang
+https://golang.org/doc/install
+
+#For Rust
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+
+#For Ruby
+sudo apt-get install ruby-full
+sudo apt install rbenv
+
+#For nodejs
+sudo apt install nodejs
+
+#fd-find
+sudo apt-get install fd-find
+
+#z
+wget https://raw.githubusercontent.com/rupa/z/master/z.sh -O ~/.z
+
