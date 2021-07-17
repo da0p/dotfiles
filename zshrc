@@ -39,3 +39,4 @@ fi
 
 export PATH=~/.local/bin:"$PATH"
 
+. $HOME/.z
