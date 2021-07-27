@@ -24,6 +24,10 @@ tmux split -v -p 10 -t dev
 # Split pane 2 vertiacally by 25%
 tmux split -h -p 50 -t dev
 
+tmux select-pane -t 0
+
+tmux split -h -p 10 -t dev
+
 # return to main vim window
 tmux select-window -t $session:0
 
