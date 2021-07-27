@@ -6,6 +6,7 @@
 
 - link:
     ~/.shell: 
+    ~/.vim_cfg:
     ~/.vimrc: vimrc
     ~/.zshrc: zshrc
     ~/.bashrc: bashrc
