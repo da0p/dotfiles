@@ -21,6 +21,9 @@ source ~/.zsh/plugins.zsh
 # Export configuration for rust
 source ~/.zsh/rust.zsh
 
+# Export configuration for go
+source ~/.zsh/go.zsh
+
 # Export configuration for nodejs
 source ~/.zsh/nodejs.zsh
 
@@ -39,4 +42,4 @@ fi
 
 export PATH=~/.local/bin:"$PATH"
 
-. $HOME/.z
+. $HOME/z.sh
