@@ -134,6 +134,7 @@ set noerrorbells visualbell t_vb=
 " Syntax highlight
 let g:markdown_fenced_languages = [
         \'bash=sh',
+        \'asm',
         \'c',
         \'coffee',
         \'erb=eruby',
