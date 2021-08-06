@@ -27,6 +27,9 @@ source ~/.zsh/go.zsh
 # Export configuration for nodejs
 source ~/.zsh/nodejs.zsh
 
+# Export configuration for hla
+source ~/.zsh/hla.zsh
+
 # Export clion configuration
 source ~/.ide/clion.conf
 
