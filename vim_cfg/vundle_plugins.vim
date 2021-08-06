@@ -43,6 +43,8 @@ Plugin 'jmahler/hla.vim'
 
 Plugin 'kchmck/vim-coffee-script'
 
+Plugin 'wlangstroth/vim-racket'
+
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 
