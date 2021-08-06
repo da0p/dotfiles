@@ -21,3 +21,5 @@ sudo apt-get install fd-find
 #z
 wget https://raw.githubusercontent.com/rupa/z/master/z.sh -O ~/.z
 
+# reverse binary
+https://github.com/radareorg/radare2
