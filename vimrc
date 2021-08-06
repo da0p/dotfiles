@@ -9,8 +9,6 @@
 " is present. But we're including it here just in case this config file is
 " loaded some other way (e.g. saved as `foo`, and then Vim started with
 " `vim -u foo`).
-set nocompatible
-filetype off                  " required
 
 "==========================
 "- Vundle Plugins
