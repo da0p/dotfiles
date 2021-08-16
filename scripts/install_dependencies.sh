@@ -25,3 +25,8 @@ wget https://raw.githubusercontent.com/rupa/z/master/z.sh -O ~/.z
 sudo apt-add-repository universe
 sudo apt-get update
 sudo apt-get install doxygen
+
+#install oh-my-tmux
+git clone git clone https://github.com/gpakosz/.tmux.git ~/.tmux
+ln -s -f .tmux/.tmux.conf
+
