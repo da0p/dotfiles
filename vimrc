@@ -45,6 +45,11 @@ source ~/.vim_cfg/misc.vim
 " Syntastic Configuration
 " =================================
 source ~/.vim_cfg/nerd_tree.vim
+"
+" ==================================
+" Onedark theme Configuration
+" =================================
+source ~/.vim_cfg/onedark.vim
 
 " Local customization in ~/.vimrc_local
 let $LOCALFILE=expand("~/.vimrc_local")
