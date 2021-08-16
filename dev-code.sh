@@ -16,7 +16,7 @@ tmux start-server
 tmux new-session -d -s $session -n dev #"vim -S ~/.vim/sessions/dev"
 
 # Split pane 1 horizontally  by 10%
-tmux select-pane -t 0
+tmux select-pane -t %0
 tmux split -v -p 10 -t dev
 
 # Select pane 1 
@@ -24,12 +24,12 @@ tmux split -v -p 10 -t dev
 # Split pane 2 vertiacally by 25%
 tmux split -h -p 50 -t dev
 
-tmux select-pane -t 0
+tmux select-pane -t %0
 
 tmux split -h -p 10 -t dev
 
 # return to main vim window
-tmux select-window -t $session:0
+tmux select-window -t $session:1
 
 
 # Finished setup, attach to the tmux session!
