@@ -8,25 +8,25 @@ cd ~/.vim/bundle && \
 git clone --depth=1 https://github.com/vim-syntastic/syntastic.git
 
 #Install tmux
-sudo apt install tmux
+sudo apt install tmux -y
 
 #Install ruby and rbenv
-sudo apt install ruby-full
-sudo apt install rbenv
+sudo apt install ruby-full -y
+sudo apt install rbenv -y
 
 #install nodejs
-sudo apt install nodejs
+sudo apt install nodejs -y
 
 #Install fd-find and z
-sudo apt install fd-find
+sudo apt install fd-find -y
 wget https://raw.githubusercontent.com/rupa/z/master/z.sh -O ~/.z
 
 #Install doxygen
-sudo apt-add-repository universe
-sudo apt-get update
-sudo apt-get install doxygen
+sudo apt-add-repository universe -y
+sudo apt-get update -y
+sudo apt-get install doxygen -y
 
 #install oh-my-tmux
-git clone git clone https://github.com/gpakosz/.tmux.git ~/.tmux
+git clone https://github.com/gpakosz/.tmux.git ~/.tmux
 ln -s -f .tmux/.tmux.conf
 
