@@ -107,6 +107,10 @@ set lazyredraw
 " Automatically set current directory to directory of last opened file "
 set autochdir
 
+set tags=./tags,tags;$HOME
+
+set cscoperelative
+
 " More history "
 set history=8192
 
