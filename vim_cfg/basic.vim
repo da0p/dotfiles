@@ -117,14 +117,16 @@ set history=8192
 " Suppress inserting two spaces between sentences "
 set nojoinspaces
 
-" Use 4 spaces instead of tabs during formatting "
-set expandtab
-set tabstop=4
-set shiftwidth=4
-set softtabstop=4
+" Use 8 spaces instead of tabs during formatting "
+set tabstop=8
+set softtabstop=8
+set shiftwidth=8
+set noexpandtab
 " Set number of columns in on vim page
 set colorcolumn=80
-set textwidth=80
+set tw=80
+
+"set cindent autocmd BufWritePre * %s/\s\+$//e
 
 " Tab completion for files/buffers"
 set wildmode=longest,list
