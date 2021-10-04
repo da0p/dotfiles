@@ -11,7 +11,6 @@
     ~/.zshrc: zshrc
     ~/.bashrc: bashrc
     ~/.zephyrrc: zephyrrc
-    ~/.ide:
     ~/.arm:
     ~/.zsh:
     ~/.bash:
