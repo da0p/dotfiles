@@ -26,6 +26,11 @@ source ~/.vim_cfg/pathogen_plugins.vim
 source ~/.vim_cfg/basic.vim
 
 "==========================
+"- Bitbake
+"==========================
+source ~/.vim_cfg/bitbake.vim
+
+"==========================
 "- NerdTree
 "==========================
 " Start NERDTree and put the cursor back in the other window.
@@ -44,7 +49,7 @@ source ~/.vim_cfg/misc.vim
 " ==================================
 " Syntastic Configuration
 " =================================
-source ~/.vim_cfg/nerd_tree.vim
+source ~/.vim_cfg/syntastic.vim
 "
 " ==================================
 " Onedark theme Configuration
