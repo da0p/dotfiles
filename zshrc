@@ -18,9 +18,6 @@ source ~/.shell/aliases.sh
 # Export configuration for zshrc
 source ~/.zsh/settings.zsh
 
-# Export configuration for rust
-source ~/.zsh/rust.zsh
-
 # Export configuration for go
 source ~/.zsh/go.zsh
 
