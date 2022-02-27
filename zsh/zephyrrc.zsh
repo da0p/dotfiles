@@ -1,0 +1,4 @@
+export PATH=${HOME}/gn:"$PATH"
+export ZEPHYR_TOOLCHAIN_VARIANT=gnuarmemb
+export GNUARMEMB_TOOLCHAIN_PATH="~/gnuarmemb"
+export PATH=${GNUARMEMB_TOOLCHAIN_PATH}:"$PATH"
