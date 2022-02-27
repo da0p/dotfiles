@@ -5,7 +5,7 @@ export PATH=$PATH:$HOME/x-tools/arm-cortex_a8-linux-gnueabihf/bin
 export PATH=$PATH:$HOME/x-tools/arm-unknown-linux-gnueabi/bin
 
 # export path for arm toolchain
-export PATH=$PATH:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin
+export PATH=$PATH:/opt/arm-toolchain/bin
 
 # export path for euby
 export PATH="$HOME/.rbenv/bin:$PATH"
