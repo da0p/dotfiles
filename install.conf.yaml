@@ -8,9 +8,8 @@
     ~/.shell: 
     ~/.vim_cfg:
     ~/.vimrc: vimrc
-    ~/.zshrc: zshrc
     ~/.bashrc: bashrc
-    ~/.zephyrrc: zephyrrc
+    ~/.zshrc: zshrc
     ~/.ide:
     ~/.arm:
     ~/.zsh:
