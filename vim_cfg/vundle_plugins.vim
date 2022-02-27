@@ -54,6 +54,8 @@ Plugin 'vim-airline/vim-airline-themes'
 
 Plugin 'sheerun/vim-polyglot'
 
+Plugin 'chase/vim-ansible-yaml'
+
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 
