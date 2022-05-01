@@ -82,3 +82,4 @@ set -g message-style 'fg=colour232 bg=colour16 bold'
 
 # Allow local customization in ~/.tmux_local.conf
 #if-shell "[ -f ~/.tmux_local_conf ]" 'source ~/.tmux_local_conf'
+

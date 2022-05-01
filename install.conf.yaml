@@ -8,12 +8,8 @@
     ~/.shell: 
     ~/.vim_cfg:
     ~/.vimrc: vimrc
-    ~/.bashrc: bashrc
     ~/.zshrc: zshrc
-    ~/.ide:
-    ~/.arm:
     ~/.zsh:
-    ~/.bash:
     ~/.tmux.conf.local: tmux.conf.local
     ~/.gitignore_global:
 

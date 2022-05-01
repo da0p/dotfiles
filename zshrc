@@ -6,32 +6,11 @@ if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]
 fi
 
 
-# Export configuration for working with embedded devices
-source ~/.arm/arm.uc
-
 # Export configuration for aliases
 source ~/.shell/aliases.sh
 
 # Export configuration for zshrc
 source ~/.zsh/settings.zsh
-
-# Export zsh before script
-source ~/.zsh/plugins.zsh
-
-# Export configuration for rust
-source ~/.zsh/rust.zsh
-
-# Export configuration for go
-source ~/.zsh/go.zsh
-
-# Export configuration for nodejs
-source ~/.zsh/nodejs.zsh
-
-# Export configuration for hla
-source ~/.zsh/hla.zsh
-
-# Export clion configuration
-source ~/.ide/clion.conf
 
 # Allow local customization in the ~/.shell_local
 if [ -f ~/.shell_local ]; then
