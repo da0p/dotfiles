@@ -3,23 +3,16 @@ sudo apt install vim
 mkdir -p ~/.vim/autoload ~/.vim/bundle && \
 curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
 cd ~/.vim/bundle
-git clone git://github.com/altercation/vim-colors-solarized.git
+git clone https://github.com/altercation/vim-colors-solarized.git
 cd ~/.vim/bundle && \
 git clone --depth=1 https://github.com/vim-syntastic/syntastic.git
 
 #Install tmux
 sudo apt install tmux -y
 
-#Install ruby and rbenv
-sudo apt install ruby-full -y
-sudo apt install rbenv -y
-
-#install nodejs
-sudo apt install nodejs -y
-
 #Install fd-find and z
 sudo apt install fd-find -y
-wget https://raw.githubusercontent.com/rupa/z/master/z.sh -O ~/.z
+wget https://raw.githubusercontent.com/rupa/z/master/z.sh -O ~/z.sh
 
 #Install doxygen
 sudo apt-add-repository universe -y
